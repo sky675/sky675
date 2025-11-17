@@ -14,7 +14,7 @@ jobs:
       - name: general stats
         uses: anmol098/waka-readme-stats@master
         with:
-          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKA_SECRET }}
           SHOW_OS: "False"
           SHOW_TOTAL_CODE_TIME: "False"
