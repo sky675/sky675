@@ -50,8 +50,3 @@ Ruby                     1 repo              ██░░░░░░░░░�
 - [Dyskairos Release Changelog](https://sky675.github.io/dyskairos/dyskairos-release/)
 - [Project Roundup #1](https://sky675.github.io/misc/project-roundup-1/)
 <!-- BLOG-POST-LIST:END -->
-
-<!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:end-->
-<!--RECENT_ACTIVITY:last_update-->
-<!--RECENT_ACTIVITY:last_update_end-->
