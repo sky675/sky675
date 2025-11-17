@@ -23,6 +23,20 @@ jobs:
           SHOW_SHORT_INFO: "False"
           SHOW_LOC_CHART: "False"
           SHOW_TIMEZONE: "False"
+      - name: replace texts (emoji)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          include: "README.md"
+          find: "([\uD800-\uDBFF]|[\u2702-\u27B0]|[\uF680-\uF6C0]|[\u24C2-\uF251])[^\u2591\u2588][ ]"
+          replace: ""
+          regex: true
+      - name: replace texts (1)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          include: "README.md"
+          find: "(\\*\\*I'm a.+)"
+          replace: "this is when i code"
+          regex: true
       - uses: actions/checkout@v4
       - name: blog posts
         uses: gautamkrishnar/blog-post-workflow@v1
