@@ -47,6 +47,8 @@ Ruby                     1 repo              ██░░░░░░░░░�
 <!--END_SECTION:waka-->
 
 <!-- BLOG-POST-LIST:START -->
+- [Dyskairos Release Changelog](https://sky675.github.io/dyskairos/dyskairos-release/)
+- [Project Roundup #1](https://sky675.github.io/misc/project-roundup-1/)
 <!-- BLOG-POST-LIST:END -->
 
 <!--RECENT_ACTIVITY:start-->
