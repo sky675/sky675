@@ -96,7 +96,7 @@ jobs:
         with:
           include: "README.md"
           find: "(.*\\*\\*This Week I.+)"
-          replace: "**activity of last week**"
+          replace: "**what i've worked on in the past week**"
           regex: true
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:

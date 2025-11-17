@@ -1,5 +1,6 @@
-placeholder will get back to this, check later
-have this for now tho:
+primarily solo game dev largely focusing on fps games. i prefer to work in Godot now, but have prior experience with unity/c#. 
+
+check out my [website/portfolio](https://sky675.github.io/). i've released two games on steam, which you can find there.
 
 <!--START_SECTION:waka-->
 **this is when im active**
@@ -36,6 +37,8 @@ sky675                   16 mins             ███████████�
 
  Last Updated on 17/11/2025 09:17:17 UTC
 <!--END_SECTION:waka-->
+
+**recent blog posts**
 
 <!-- BLOG-POST-LIST:START -->
 - [Dyskairos Release Changelog](https://sky675.github.io/dyskairos/dyskairos-release/) - Wed Nov 05 2025 12:00 AM
