@@ -39,7 +39,7 @@ jobs:
           replace: "this is when i code"
           regex: true
       - name: blog posts
-        uses: gautamkrishnar/blog-post-workflow@v1
+        uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://sky675.github.io/feed.xml"
           max_post_count: 2
