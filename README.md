@@ -1,4 +1,5 @@
 placeholder will get back to this, check later
+have this for now tho:
 
 <!--START_SECTION:waka-->
 this is when i code

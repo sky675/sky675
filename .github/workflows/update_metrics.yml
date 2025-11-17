@@ -116,4 +116,4 @@ jobs:
         with:
           feed_list: "https://sky675.github.io/feed.xml"
           max_post_count: 2
-          template: "- [$title]($url) - $date $newline"
+          template: "$newline- [$title]($url) - $date"
