@@ -23,6 +23,7 @@ jobs:
           SHOW_SHORT_INFO: "False"
           SHOW_LOC_CHART: "False"
           SHOW_TIMEZONE: "False"
+      - uses: actions/checkout@v4
       - name: replace texts (emoji)
         uses: jacobtomlinson/gha-find-replace@v3
         with:
@@ -37,7 +38,6 @@ jobs:
           find: "(\\*\\*I'm a.+)"
           replace: "this is when i code"
           regex: true
-      - uses: actions/checkout@v4
       - name: blog posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
