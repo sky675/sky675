@@ -1,27 +1,32 @@
 name: Metrics
 on:
   # Schedule daily updates
-  #schedule: [{cron: "0 0 * * *"}]
+  #schedule: [{cron: "0 0 * * 0"}]
   workflow_dispatch:
 jobs:
-  github-metrics:
+  stats:
     runs-on: ubuntu-latest
     environment: 
       name: production
     permissions:
       contents: write
     steps:
-      - uses: gh-metrics/metrics@master
+      - name: general stats
+        uses: anmol098/waka-readme-stats@master
         with:
-          base: header, activity, metadata
-          token: ${{ secrets.METRICS_TOKEN }}
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_activity: yes
-          plugin_activity_limit: 6
-          plugin_activity_days: 0
-          plugin_activity_timestamps: true
-          plugin_rss: yes
-          plugin_rss_limit: 2
-          plugin_rss_source: https://sky675.github.io/feed.xml
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKA_SECRET }}
+          SHOW_OS: "False"
+          SHOW_LANGUAGE: "False"
+          SHOW_SHORT_INFO: "False"
+          SHOW_LOC_CHART: "False"
+          SHOW_UPDATED_DATE: "False"
+      - name: blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://sky675.github.io/feed.xml"
+          max_post_count: 2
+      - name: activity
+        uses: Readme-Workflows/recent-activity@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
