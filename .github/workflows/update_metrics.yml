@@ -35,6 +35,13 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           git pull
+      - name: replace texts (1)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          include: "README.md"
+          find: "(\\*\\*I'm a.+)"
+          replace: "**this is when i code**"
+          regex: true
       - name: replace texts (morn)
         uses: jacobtomlinson/gha-find-replace@v3
         with:
@@ -62,13 +69,6 @@ jobs:
           include: "README.md"
           find: '(.?\sNight)'
           replace: "night"
-          regex: true
-      - name: replace texts (1)
-        uses: jacobtomlinson/gha-find-replace@v3
-        with:
-          include: "README.md"
-          find: "(\\*\\*I'm a.+)"
-          replace: "**this is when i code**"
           regex: true
       - name: replace texts (2)
         uses: jacobtomlinson/gha-find-replace@v3
