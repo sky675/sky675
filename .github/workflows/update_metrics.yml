@@ -11,35 +11,17 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@master
+      - uses: gh-metrics/metrics@master
         with:
           base: header, activity, metadata
-          token: ${{ secrets.METRICS_TOKEN }}
-      - name: habits
-        uses: austenstone/metrics@patch-1
-        with:
-          filename: metrics.habits.*
-          base: ""
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-      - name: activites
-        uses: EndBug/metrics@master
-        with:
-          filename: metrics.activity.*
-          base: ""
-          token: ${{ secrets.METRICS_TOKEN }}
           plugin_activity: yes
           plugin_activity_limit: 6
           plugin_activity_days: 0
           plugin_activity_timestamps: true
-      - name: rss
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.rss.*
-          base: ""
-          token: ${{ secrets.METRICS_TOKEN }}
           plugin_rss: yes
           plugin_rss_limit: 2
           plugin_rss_source: https://sky675.github.io/feed.xml
