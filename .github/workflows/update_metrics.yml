@@ -23,6 +23,7 @@ jobs:
           SHOW_SHORT_INFO: "False"
           SHOW_LOC_CHART: "False"
           SHOW_TIMEZONE: "False"
+          SHOW_LANGUAGE_PER_REPO: "False"
   replacements:
     needs: stats
     runs-on: ubuntu-latest
@@ -34,19 +35,68 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           git pull
-      - name: replace texts (emoji)
+      - name: replace texts (morn)
         uses: jacobtomlinson/gha-find-replace@v3
         with:
           include: "README.md"
-          find: '([\x{D800}-\x{DBFF}]|[\x{2702}-\x{27B0}]|[\x{F680}-\x{F6C0}]|[\x{24C2}-\x{F251}])[^\x{2591}\x{2588}][ ]'
-          replace: ""
+          find: '(.?\sMorning)'
+          replace: "morning"
+          regex: true
+      - name: replace texts (day)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          include: "README.md"
+          find: '(.?\sDaytime)'
+          replace: "daytime"
+          regex: true
+      - name: replace texts (eve)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          include: "README.md"
+          find: '(.?\sEvening)'
+          replace: "evening"
+          regex: true
+      - name: replace texts (night)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          include: "README.md"
+          find: '(.?\sNight)'
+          replace: "night"
           regex: true
       - name: replace texts (1)
         uses: jacobtomlinson/gha-find-replace@v3
         with:
           include: "README.md"
           find: "(\\*\\*I'm a.+)"
-          replace: "this is when i code"
+          replace: "**this is when i code**"
+          regex: true
+      - name: replace texts (2)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          include: "README.md"
+          find: "(.*\\*\\*I'm Most.+)"
+          replace: "**my days of the week**"
+          regex: true
+      - name: replace texts (3)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          include: "README.md"
+          find: "(.*Editors)"
+          replace: "editors"
+          regex: true
+      - name: replace texts (4)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          include: "README.md"
+          find: "(.*Projects)"
+          replace: "projects"
+          regex: true
+      - name: replace texts (5)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          include: "README.md"
+          find: "(.*\\*\\*This Week I.+)"
+          replace: "**activity of last week**"
           regex: true
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
