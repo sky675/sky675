@@ -1,0 +1,27 @@
+name: Metrics
+on:
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@master
+        with:
+          base: header, activity, metadata
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_activity: yes
+          plugin_activity_limit: 6
+          plugin_activity_days: 0
+          plugin_activity_timestamps: true
+          plugin_rss: yes
+          plugin_rss_limit: 2
+          plugin_rss_source: https://sky675.github.io/feed.xml
