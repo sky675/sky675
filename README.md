@@ -47,7 +47,6 @@ Ruby                     1 repo              ██░░░░░░░░░�
  Last Updated on 17/11/2025 08:49:41 UTC
 <!--END_SECTION:waka-->
 
-<!-- BLOG-POST-LIST:START -->
-- [Dyskairos Release Changelog](https://sky675.github.io/dyskairos/dyskairos-release/)
-- [Project Roundup #1](https://sky675.github.io/misc/project-roundup-1/)
+<!-- BLOG-POST-LIST:START -->- [Dyskairos Release Changelog](https://sky675.github.io/dyskairos/dyskairos-release/) - Wed Nov 05 2025 12:00 AM 
+- [Project Roundup #1](https://sky675.github.io/misc/project-roundup-1/) - Fri Oct 17 2025 12:00 AM 
 <!-- BLOG-POST-LIST:END -->
