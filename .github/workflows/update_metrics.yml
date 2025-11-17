@@ -23,7 +23,7 @@ jobs:
           SHOW_SHORT_INFO: "False"
           SHOW_LOC_CHART: "False"
           SHOW_TIMEZONE: "False"
-  blog:
+  replacements:
     needs: stats
     runs-on: ubuntu-latest
     environment: 
@@ -46,6 +46,19 @@ jobs:
           find: "(\\*\\*I'm a.+)"
           replace: "this is when i code"
           regex: true
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: replace texts
+          file_pattern: README.md
+  blog:
+    needs: replacements
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
       - name: blog posts
         uses: gautamkrishnar/blog-post-workflow@master
         with:
