@@ -2,7 +2,7 @@ placeholder will get back to this, check later
 have this for now tho:
 
 <!--START_SECTION:waka-->
-**I'm night 🦉** 
+**this is when im active**
 
 ```text
 morning                86 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   02.22 % 

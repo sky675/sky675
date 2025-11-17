@@ -1,7 +1,7 @@
 name: Metrics
 on:
   # Schedule daily updates
-  #schedule: [{cron: "0 0 * * 0"}]
+  schedule: [{cron: "0 0 * * 0"}]
   workflow_dispatch:
 jobs:
   stats:
@@ -40,7 +40,7 @@ jobs:
         with:
           include: "README.md"
           find: "(\\*\\*I'm a.+)"
-          replace: "**this is when i code**"
+          replace: "**this is when im active**"
           regex: true
       - name: replace texts (morn)
         uses: jacobtomlinson/gha-find-replace@v3
