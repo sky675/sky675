@@ -28,7 +28,7 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@v3
         with:
           include: "README.md"
-          find: '([\uD800-\uDBFF]|[\u2702-\u27B0]|[\uF680-\uF6C0]|[\u24C2-\uF251])[^\u2591\u2588][ ]'
+          find: '([\x{D800}-\x{DBFF}]|[\x{2702}-\x{27B0}]|[\x{F680}-\x{F6C0}]|[\x{24C2}-\x{F251}])[^\x{2591}\x{2588}][ ]'
           replace: ""
           regex: true
       - name: replace texts (1)
