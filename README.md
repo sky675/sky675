@@ -46,5 +46,5 @@ dyskairos                0 secs              ░░░░░░░░░░░�
 **recent blog posts**
 
 <!-- BLOG-POST-LIST:START -->
-- [Dyskairos Release Changelog](https://sky675.github.io/dyskairos/dyskairos-release/) - Wed Nov 05 2025 12:00 AM
-- [Project Roundup #1](https://sky675.github.io/misc/project-roundup-1/) - Fri Oct 17 2025 12:00 AM<!-- BLOG-POST-LIST:END -->
+- [OASIS 2 Dev-Blog #5](https://sky675.github.io/oasis/oasis-2-dev-blog-5/) - Thu Nov 27 2025 12:00 AM
+- [Dyskairos Release Changelog](https://sky675.github.io/dyskairos/dyskairos-release/) - Wed Nov 05 2025 12:00 AM<!-- BLOG-POST-LIST:END -->
