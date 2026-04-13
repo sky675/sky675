@@ -1,6 +1,6 @@
 primarily solo game dev largely focusing on fps games. i prefer to work in Godot now, but have prior experience with unity/c#. 
 
-check out my [website/portfolio](https://sky675.github.io/). i've released two games on steam, which you can find there.
+check out my [website/portfolio](https://sky675.github.io/). i've released two games on steam, which you can find there, along with games i've made during game jams as well as other projects.
 
 <!--START_SECTION:waka-->
 **this is when im active**
