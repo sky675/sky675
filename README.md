@@ -44,5 +44,5 @@ misc notes               0 secs              ░░░░░░░░░░░�
 **recent blog posts**
 
 <!-- BLOG-POST-LIST:START -->
-- [OASIS 2 Dev-Blog #9](https://sky675.github.io/oasis/oasis-2-dev-blog-9/) - Fri Mar 27 2026 12:00 AM
-- [OASIS 2 Dev-Blog #8](https://sky675.github.io/oasis/oasis-2-dev-blog-8/) - Sat Feb 21 2026 12:00 AM<!-- BLOG-POST-LIST:END -->
+- [OASIS 2 Dev-Blog #10](https://sky675.github.io/oasis/oasis-2-dev-blog-10/) - Thu Apr 30 2026 12:00 AM
+- [OASIS 2 Dev-Blog #9](https://sky675.github.io/oasis/oasis-2-dev-blog-9/) - Fri Mar 27 2026 12:00 AM<!-- BLOG-POST-LIST:END -->
