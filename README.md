@@ -3,42 +3,42 @@ primarily solo game dev largely focusing on fps games. i prefer to work in Godot
 check out my [website/portfolio](https://sky675.github.io/). i've released two games on steam, which you can find there, along with games i've made during game jams as well as other projects.
 
 <!--START_SECTION:waka-->
-**this is when im active**
+**I'm a Night 🦉** 
 
 ```text
-morning                105 commits         ░░░░░░░░░░░░░░░░░░░░░░░░░   02.00 % 
-daytime                2444 commits        ████████████░░░░░░░░░░░░░   46.45 % 
-evening                1070 commits        █████░░░░░░░░░░░░░░░░░░░░   20.33 % 
-night                  1643 commits        ████████░░░░░░░░░░░░░░░░░   31.22 % 
+🌞 Morning                105 commits         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.99 % 
+🌆 Daytime                2445 commits        ████████████░░░░░░░░░░░░░   46.33 % 
+🌃 Evening                1079 commits        █████░░░░░░░░░░░░░░░░░░░░   20.45 % 
+🌙 Night                  1648 commits        ████████░░░░░░░░░░░░░░░░░   31.23 % 
 ```
-**my days of the week**
+📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   858 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.31 % 
-Tuesday                  805 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.30 % 
-Wednesday                777 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.77 % 
-Thursday                 786 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.94 % 
-Friday                   852 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.19 % 
-Saturday                 598 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.36 % 
-Sunday                   586 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.14 % 
-```
-
-
-**what i've worked on in the past week**
-
-```text
-editors: 
-Godot_Super              7 hrs 52 mins       ██████████░░░░░░░░░░░░░░░   40.86 % 
-VS Code                  6 hrs 25 mins       ████████░░░░░░░░░░░░░░░░░   33.34 % 
-Obsidian                 4 hrs 58 mins       ██████░░░░░░░░░░░░░░░░░░░   25.80 % 
-
-projects: 
-oasis_2                  19 hrs 15 mins      █████████████████████████   99.82 % 
-misc notes               2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.18 % 
+Monday                   858 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.26 % 
+Tuesday                  805 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.25 % 
+Wednesday                778 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.74 % 
+Thursday                 800 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.16 % 
+Friday                   852 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.15 % 
+Saturday                 598 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.33 % 
+Sunday                   586 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.10 % 
 ```
 
 
- Last Updated on 30/04/2026 05:01:08 UTC
+📊 **This Week I Spent My Time On** 
+
+```text
+🔥 Editors: 
+VS Code                  7 hrs 39 mins       ███████████░░░░░░░░░░░░░░   44.14 % 
+Godot_Super              5 hrs 48 mins       ████████░░░░░░░░░░░░░░░░░   33.48 % 
+Obsidian                 3 hrs 53 mins       ██████░░░░░░░░░░░░░░░░░░░   22.38 % 
+
+🐱‍💻 Projects: 
+oasis_2                  17 hrs 21 mins      █████████████████████████   100.00 % 
+misc notes               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+```
+
+
+ Last Updated on 01/05/2026 09:12:51 UTC
 <!--END_SECTION:waka-->
 
 **recent blog posts**
