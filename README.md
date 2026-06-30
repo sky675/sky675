@@ -10,5 +10,5 @@ check out my [website/portfolio](https://sky675.github.io/). i've released two g
 **recent blog posts**
 
 <!-- BLOG-POST-LIST:START -->
-- [My favorites from Next Fest June ‘26](https://sky675.github.io/misc/nextfest-june-26/) - Sun Jun 21 2026 12:00 AM
-- [OASIS 2 Dev-Blog #11](https://sky675.github.io/oasis/oasis-2-dev-blog-11/) - Fri May 29 2026 12:00 AM<!-- BLOG-POST-LIST:END -->
+- [OASIS II Dev-Blog #12](https://sky675.github.io/oasis/oasis-2-dev-blog-12/) - Mon Jun 29 2026 12:00 AM
+- [My favorites from Next Fest June ‘26](https://sky675.github.io/misc/nextfest-june-26/) - Sun Jun 21 2026 12:00 AM<!-- BLOG-POST-LIST:END -->
