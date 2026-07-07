@@ -3,44 +3,8 @@ primarily solo game dev largely focusing on fps games. i prefer to work in Godot
 check out my [website/portfolio](https://sky675.github.io/). i've released two games on steam, which you can find there, along with games i've made during game jams as well as other projects.
 
 <!--START_SECTION:waka-->
-**this is when im active**
 
-```text
-morning                118 commits         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.97 % 
-daytime                2826 commits        ████████████░░░░░░░░░░░░░   47.16 % 
-evening                1165 commits        █████░░░░░░░░░░░░░░░░░░░░   19.44 % 
-night                  1883 commits        ████████░░░░░░░░░░░░░░░░░   31.43 % 
-```
-**my days of the week**
-
-```text
-Monday                   990 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.52 % 
-Tuesday                  937 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.64 % 
-Wednesday                835 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.94 % 
-Thursday                 946 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.79 % 
-Friday                   975 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.27 % 
-Saturday                 683 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.40 % 
-Sunday                   626 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.45 % 
-```
-
-
-**what i've worked on in the past week**
-
-```text
-editors: 
-VS Code                  11 hrs 56 mins      █████████████░░░░░░░░░░░░   50.60 % 
-Godot_Super              8 hrs 39 mins       █████████░░░░░░░░░░░░░░░░   36.71 % 
-Obsidian                 2 hrs 59 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.68 % 
-
-projects: 
-oasis_2                  21 hrs 5 mins       ██████████████████████░░░   89.39 % 
-sky675.github.io         2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   08.50 % 
-misc notes               29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.09 % 
-dyskairos                0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
-```
-
-
- Last Updated on 03/07/2026 10:13:33 UTC
+ Last Updated on 07/07/2026 10:34:55 UTC
 <!--END_SECTION:waka-->
 
 **recent blog posts**
