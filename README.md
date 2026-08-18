@@ -4,7 +4,7 @@ check out my [website/portfolio](https://sky675.github.io/). i've released two g
 
 <!--START_SECTION:waka-->
 
- Last Updated on 14/08/2026 08:41:25 UTC
+ Last Updated on 18/08/2026 07:57:41 UTC
 <!--END_SECTION:waka-->
 
 **recent blog posts**
