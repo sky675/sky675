@@ -3,8 +3,48 @@ primarily solo game dev largely focusing on fps games. i prefer to work in Godot
 check out my [website/portfolio](https://sky675.github.io/). i've released two games on steam, which you can find there, along with games i've made during game jams as well as other projects.
 
 <!--START_SECTION:waka-->
+**I'm an Early 🐤** 
 
- Last Updated on 29/09/2026 14:09:33 UTC
+```text
+🌞 Morning                175 commits         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.73 % 
+🌆 Daytime                4911 commits        ████████████░░░░░░░░░░░░░   48.48 % 
+🌃 Evening                1597 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.77 % 
+🌙 Night                  3447 commits        █████████░░░░░░░░░░░░░░░░   34.03 % 
+```
+📅 **I'm Most Productive on Thursday** 
+
+```text
+Monday                   1602 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.81 % 
+Tuesday                  1654 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.33 % 
+Wednesday                1315 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.98 % 
+Thursday                 1738 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.16 % 
+Friday                   1661 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.40 % 
+Saturday                 1147 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.32 % 
+Sunday                   1013 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   10.00 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🔥 Editors: 
+Godot_Super              9 hrs 11 mins       ███████████░░░░░░░░░░░░░░   43.32 % 
+VS Code                  8 hrs 38 mins       ██████████░░░░░░░░░░░░░░░   40.74 % 
+Obsidian                 3 hrs 23 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.95 % 
+
+🐱‍💻 Projects: 
+oasis_2                  19 hrs 42 mins      ███████████████████████░░   92.87 % 
+sky675.github.io         1 hr 30 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.13 % 
+```
+
+🤖 **AI Coding This Week** 
+
+```text
+No AI Coding Activity Tracked This Week
+```
+
+
+ Last Updated on 02/10/2026 13:57:03 UTC
 <!--END_SECTION:waka-->
 
 **recent blog posts**
