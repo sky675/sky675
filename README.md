@@ -3,50 +3,8 @@ primarily solo game dev largely focusing on fps games. i prefer to work in Godot
 check out my [website/portfolio](https://sky675.github.io/). i've released two games on steam, which you can find there, along with games i've made during game jams as well as other projects.
 
 <!--START_SECTION:waka-->
-**this is when im active**
 
-```text
-morning                217 commits         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.62 % 
-daytime                6619 commits        ████████████░░░░░░░░░░░░░   49.34 % 
-evening                1953 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.56 % 
-night                  4627 commits        █████████░░░░░░░░░░░░░░░░   34.49 % 
-```
-**my days of the week**
-
-```text
-Monday                   2096 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.62 % 
-Tuesday                  2204 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.43 % 
-Wednesday                1696 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.64 % 
-Thursday                 2325 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.33 % 
-Friday                   2205 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.44 % 
-Saturday                 1495 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.14 % 
-Sunday                   1395 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.40 % 
-```
-
-
-**what i've worked on in the past week**
-
-```text
-editors: 
-VS Code                  3 hrs 34 mins       ███████████████░░░░░░░░░░   58.54 % 
-Obsidian                 1 hr 20 mins        █████░░░░░░░░░░░░░░░░░░░░   21.96 % 
-Godot_Super              1 hr 11 mins        █████░░░░░░░░░░░░░░░░░░░░   19.50 % 
-
-projects: 
-oasis_2                  3 hrs 3 mins        █████████████░░░░░░░░░░░░   50.21 % 
-comfy-jam-autumn-2026    2 hrs 22 mins       ██████████░░░░░░░░░░░░░░░   38.96 % 
-sky675.github.io         38 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.55 % 
-misc notes               1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.27 % 
-```
-
-🤖 **AI Coding This Week** 
-
-```text
-No AI Coding Activity Tracked This Week
-```
-
-
- Last Updated on 16/10/2026 12:30:17 UTC
+ Last Updated on 20/10/2026 12:50:32 UTC
 <!--END_SECTION:waka-->
 
 **recent blog posts**
